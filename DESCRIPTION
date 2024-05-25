@@ -1,10 +1,12 @@
 Package: acspatial
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Algorithmic Complexity of Spatial Data
+Version: 0.0.1
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+    person(given = "Jakub", family = "Nowosad", 
+      role = c("aut", "cre"),
+      email = "nowosad.jakub@gmail.com", 
+      comment = c(ORCID = "0000-0002-1057-3721"))
+Description: The algorithmic complexity of spatial data is a measure of the amount of information in a data set. This package provides functions to calculate the algorithmic complexity of spatial raster data using the layered block decomposition method (Rueda-Toicen (2018) <doi:10.5281/zenodo.1291510>).
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

@@ -4,6 +4,8 @@
 # acspatial
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/Nowosad/spatcomplexity/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Nowosad/spatcomplexity/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of **acspatial** is to provide a function to calculate the

@@ -4,12 +4,20 @@
 \name{acspatial-package}
 \alias{acspatial}
 \alias{acspatial-package}
-\title{acspatial: What the Package Does (One Line, Title Case)}
+\title{acspatial: Algorithmic Complexity of Spatial Data}
 \description{
-What the package does (one paragraph).
+The algorithmic complexity of spatial data is a measure of the amount of information in a data set. This package provides functions to calculate the algorithmic complexity of spatial raster data using the layered block decomposition method (Rueda-Toicen (2018) \doi{10.5281/zenodo.1291510}).
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/Nowosad/spatcomplexity}
+  \item Report bugs at \url{https://github.com/Nowosad/spatcomplexity/issues}
+}
+
 }
 \author{
-\strong{Maintainer}: First Last \email{first.last@example.com} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
+\strong{Maintainer}: Jakub Nowosad \email{nowosad.jakub@gmail.com} (\href{https://orcid.org/0000-0002-1057-3721}{ORCID})
 
 }
 \keyword{internal}
