@@ -1,0 +1,53 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# acspatial
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of **acspatial** is to provide a function to calculate the layered block decomposition method (layered BDM) for spatial data.
+The layered BDM is a method to estimate the algorithmic complexity of spatial data, a measure of the amount of information in a data set.
+The algorithmic complexity is calculated using the Kolmogorov complexity, which is the length of the shortest computer program that can generate the provided data set. 
+
+## Installation
+
+You can install the development version of **acspatial** from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("Nowosad/acspatial")
+```
+
+## Examples
+
+```{r}
+library(acspatial)
+# 1
+data(mini_array)
+mini_array
+layered_bdm(mini_array)
+
+# 2
+mini_array2 = matrix(1, nrow = 8, ncol = 8)
+mini_array2
+layered_bdm(mini_array2)
+```
+
+## References
+
+- Rueda-Toicen, Antonio, Image Analysis with Estimations of Kolmogorov Complexity, (2018), GitHub repository, https://github.com/andandandand/ImageAnalysisWithAlgorithmicInformation, DOI: /10.5281/zenodo.1291510
+- Hector Zenil, Santiago Hernández-Orozco, Narsis A.Kiani, Fernando Soler-Toscano, Antonio Rueda-Toicen, and Jesper Tegner "A Decomposition Method for Global Evaluation of Shannon Entropy and Local Estimations of Algorithmic Complexity", https://arxiv.org/abs/1609.00110
+- https://www.complexity-calculator.com/

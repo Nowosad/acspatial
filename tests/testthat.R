@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/articles/special-files.html
 
 library(testthat)
-library(spatcomplexity)
+library(acspatial)
 
-test_check("spatcomplexity")
+test_check("acspatial")
